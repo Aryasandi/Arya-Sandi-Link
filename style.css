@@ -1,5 +1,3 @@
-
-
 .jadwal, .course{
 	background-color: #1a355f;
 }
@@ -13,4 +11,7 @@ span{ font-weight: bold;
 }
 section{
 	padding-top: 4rem;
+}
+.jadwal{
+  padding-top: 2.5rem;
 }
