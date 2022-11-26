@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style1.css">
+	<title>Forbidden</title>
+</head>
+<body>
+	<div class="wrapper">
+		<div class="container">
+			<h1 class="first">403</h1>
+			<h2 class="second">Forbidden</h2>
+			<p class="third">Anda tidak diizinkan melihat halaman ini.</p>
+			<button class="btn"><a href="https://www.github.com/Aryasandi">Kembali ke beranda</a></button>
+		</div>
+	</div>
+
+
+	<style>
+		body{
+			box-sizing: border-box;
+			margin: 0;
+		}
+
+
+		.wrapper{
+			width: 100%;
+			height: 100vh;
+			display: flex;
+			justify-content: center;
+			align-items: center
+		}			
+
+		.container{
+			border: 1px solid black;
+			width: 60%;
+			height: 270px;
+			border-radius: 4px;
+			padding: 15px;
+			-webkit-box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.75);
+			-moz-box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.75);
+			box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.75);
+		}
+
+
+		.first{
+			text-align: center;
+			font-family: Verdana;
+			font-size: 80px;
+
+		}
+
+		.second{
+			margin-top: -50px;
+			text-align: center;
+			font-size: 20px;
+		}
+
+		.third{
+			text-align: center;
+			font-size: 17px;
+		}
+
+		.btn{
+			background: none;
+			display: grid;
+			margin: auto;
+			border-radius: 3px;
+			padding: 7px;
+		}
+
+		a{
+			padding: 3px;
+			font-weight: 650;
+			font-family: sans-serif;
+			text-decoration: none;
+			color: black;
+		}
+
+		a:hover{
+			transition: .3s ease-in;
+			cursor: pointer;
+			color: darkblue;
+		}
+	</style>
+	</html>
