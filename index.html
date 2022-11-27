@@ -3,16 +3,24 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet"
+	href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+	/>
 	<link rel="stylesheet" type="text/css" href="style1.css">
 	<title>Forbidden</title>
 </head>
 <body>
+
+
+
 	<div class="wrapper">
-		<div class="container">
+		<div class="container animate__animated animate__fadeIn">
 			<h1 class="first">403</h1>
 			<h2 class="second">Forbidden</h2>
 			<p class="third">Anda tidak diizinkan melihat halaman ini.</p>
-			<button class="btn"><a href="https://www.github.com/Aryasandi">Kembali ke beranda</a></button>
+			<form>
+				<button formaction="https://www.github.com/Aryasandi" class="btn">Kembali</button>
+			</form>
 		</div>
 	</div>
 
@@ -33,21 +41,20 @@
 		}			
 
 		.container{
-			border: 1px solid black;
-			width: 80%;
-			height: 270px;
+			width: auto;
+			height: auto;
 			border-radius: 4px;
-			padding: 18px;
-			-webkit-box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.75);
-			-moz-box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.75);
-			box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.75);
+			padding: 60px;
+			-webkit-box-shadow: 2px 2px 4px 0px rgba(0,0,0,0.75);
+			-moz-box-shadow: 2px 2px 4px 0px rgba(0,0,0,0.75);
+			box-shadow: 2px 2px 4px 0px rgba(0,0,0,0.75);
 		}
 
-
 		.first{
+			margin-top: 17px;
 			text-align: center;
 			font-family: Verdana;
-			font-size: 80px;
+			font-size: 75px;
 
 		}
 
@@ -67,12 +74,13 @@
 			display: grid;
 			margin: auto;
 			border-radius: 3px;
-			padding: 7px;
+			padding: 10px;
 		}
 
 		.btn:hover{
-			background-color: whitesmoke;
-			transition: .3s ease-in;
+			background-color: black;
+			transition: .5s ease-in-out;
+			color: white;
 		}
 
 
